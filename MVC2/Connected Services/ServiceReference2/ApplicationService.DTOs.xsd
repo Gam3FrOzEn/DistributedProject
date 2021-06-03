@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ApplicationService.DTOs" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ApplicationService.DTOs" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/Data.Entities" />
+  <xs:complexType name="ArrayOfHotDogDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="HotDogDTO" nillable="true" type="tns:HotDogDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfHotDogDTO" nillable="true" type="tns:ArrayOfHotDogDTO" />
+  <xs:complexType name="HotDogDTO">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Data.Entities" minOccurs="0" name="BunType" type="q1:HotDog.Bun" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Price" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Sauce" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Data.Entities" minOccurs="0" name="SausageType" type="q2:HotDog.Sausage" />
+      <xs:element minOccurs="0" name="Spice" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HotDogDTO" nillable="true" type="tns:HotDogDTO" />
+  <xs:complexType name="ArrayOfClientDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ClientDTO" nillable="true" type="tns:ClientDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfClientDTO" nillable="true" type="tns:ArrayOfClientDTO" />
+  <xs:complexType name="ClientDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Neighborhood" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Street" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClientDTO" nillable="true" type="tns:ClientDTO" />
+  <xs:complexType name="ArrayOfSaleDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SaleDTO" nillable="true" type="tns:SaleDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSaleDTO" nillable="true" type="tns:ArrayOfSaleDTO" />
+  <xs:complexType name="SaleDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Client" nillable="true" type="tns:ClientDTO" />
+      <xs:element minOccurs="0" name="ClientId" type="xs:int" />
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FinalPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="HotDog" nillable="true" type="tns:HotDogDTO" />
+      <xs:element minOccurs="0" name="HotDogId" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:unsignedByte" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SaleDTO" nillable="true" type="tns:SaleDTO" />
+</xs:schema>

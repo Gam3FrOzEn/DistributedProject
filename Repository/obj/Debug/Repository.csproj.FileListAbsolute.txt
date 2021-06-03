@@ -1,0 +1,15 @@
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\Repository.dll.config
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\Repository.dll
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\Repository.pdb
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\Data.dll
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\Data.pdb
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\Data.dll.config
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\EntityFramework.xml
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\obj\Debug\Repository.dll
+C:\Users\Gam3FrOzEn\Desktop\ProektSolution\Repository\obj\Debug\Repository.pdb

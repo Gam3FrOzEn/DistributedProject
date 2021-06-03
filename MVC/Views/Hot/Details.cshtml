@@ -1,0 +1,66 @@
+﻿@model MVC.ViewModels.HotDogVM
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HotDogVM</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sauce)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sauce)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Spice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Spice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SausageType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SausageType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BunType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BunType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
